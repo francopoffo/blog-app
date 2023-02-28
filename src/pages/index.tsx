@@ -1,9 +1,10 @@
 import FeaturedPosts from "@/components/home-page/featured-posts";
 import Head from "next/head";
 import Hero from "../components/home-page/hero";
+import { Posts } from "@/types/posts";
 
 export default function Home() {
-  const dummy_posts = [
+  const dummy_posts: Posts = [
     {
       slug: "getting-started-with-nextjs",
       title: "Getting started with NextJS",

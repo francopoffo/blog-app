@@ -2,8 +2,9 @@ import React from "react";
 import classes from "./post-item.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import { Post } from "@/types/post";
 
-function PostItem(props: any) {
+const PostItem: React.FC<{ post: Post }> = (props) => {
   const { title, image, description, date, slug } = props.post;
 
   const formattedDate = new Date(date).toLocaleDateString("pt-BR", {
@@ -35,6 +36,6 @@ function PostItem(props: any) {
       </Link>
     </li>
   );
-}
+};
 
 export default PostItem;
