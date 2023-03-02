@@ -1,4 +1,5 @@
 import Head from "next/head";
+import PostContent from "@/components/posts/post-detail/post-content";
 
 export default function SinglePost() {
   return (
@@ -9,7 +10,7 @@ export default function SinglePost() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Post Page</h1>
+      <PostContent />
     </>
   );
 }
