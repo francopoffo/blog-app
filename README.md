@@ -2,7 +2,14 @@
 
 Este projeto está em desenvolvimento.
 
-Será desenvolvivo um blog completo utilizando todas as principais features do Next.js.
+O principal objetivo é utilizar o máximo de features do Next.js.
+
+## Tecnologias utilizadas
+
+- React
+- Next.js
+- react-markdown
+- CSS modules
 
 ## Getting Started
 
@@ -19,4 +26,3 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
