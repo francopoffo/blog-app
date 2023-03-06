@@ -4,4 +4,6 @@ export type Posts = {
   image: string;
   description: string;
   date: string;
+  isFeatured?: boolean;
+  content?: string;
 }[];
