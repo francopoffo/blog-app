@@ -8,7 +8,7 @@ const PostHeader: React.FC<{ title: string; image: string }> = (props) => {
   return (
     <header className={classes.header}>
       <h1>{title}</h1>
-      <Image src={image} alt={title} width={200} height={150} />
+      <Image src={image} alt={title} width={400} height={300} />
     </header>
   );
 };
