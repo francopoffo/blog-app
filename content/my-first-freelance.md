@@ -27,7 +27,11 @@ Other:
 
 Download the code on my [GitHub](https://github.com/francopoffo/victoria-landpage)
 
-Install all dependencies with: npm install.
+Install all dependencies with:
+
+```bash
+npm install
+```
 
 Then, run the development server:
 

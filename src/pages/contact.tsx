@@ -1,15 +1,19 @@
+import ContactForm from "@/components/contact/contact-form";
 import Head from "next/head";
+import React from "react";
 
-export default function Contact() {
+const Contact: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Blog App</title>
-        <meta name="description" content="A blog app" />
+        <title>Blog App - Contact</title>
+        <meta name="description" content="Contact page of the blog" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Contact Page</h1>
+      <ContactForm />
     </>
   );
-}
+};
+
+export default Contact;
