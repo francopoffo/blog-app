@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Hero.module.css";
+import classes from "./hero.module.css";
 import Image from "next/image";
 
 const Hero: React.FC = () => {
