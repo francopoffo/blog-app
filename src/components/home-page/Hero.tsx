@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./hero.module.css";
 import Image from "next/image";
 
-const Hero: React.FC = () => {
+function Hero() {
   return (
     <section className={classes.hero}>
       <div className={classes.image}>
@@ -17,6 +17,6 @@ const Hero: React.FC = () => {
       <p>A blog about my journey in web development.</p>
     </section>
   );
-};
+}
 
 export default Hero;
