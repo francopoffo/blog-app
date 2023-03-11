@@ -8,8 +8,10 @@ O principal objetivo é utilizar o máximo de features do Next.js.
 
 - React
 - Next.js
+- TypeScript
 - react-markdown
 - gray-matter
+- react-syntax-highlighter
 - CSS modules
 
 ## Getting Started
