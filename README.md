@@ -2,7 +2,12 @@
 
 Este projeto está em desenvolvimento.
 
-O principal objetivo é utilizar o máximo de features do Next.js.
+O principal objetivo é utilizar o máximo de features do Next.js, que são:
+
+- file-base routing
+- data fetching
+- image optimization
+- API routes
 
 ## Tecnologias utilizadas
 
