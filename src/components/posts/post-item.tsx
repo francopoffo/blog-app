@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./post-item.module.css";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { Post } from "@/types/post";
 
 const PostItem: React.FC<{ post: Post }> = (props) => {
