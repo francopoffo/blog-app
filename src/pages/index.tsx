@@ -1,7 +1,7 @@
 import React from "react";
 import FeaturedPosts from "@/components/home-page/featured-posts";
 import Head from "next/head";
-import Hero from "../components/home-page/hero";
+import Presentation from "@/components/home-page/presentation";
 import { Posts } from "@/types/posts";
 import { getFeaturedPosts } from "helpers/posts-util";
 
@@ -14,7 +14,7 @@ const Home: React.FC<{ posts: Posts }> = (props) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero />
+      <Presentation />
       <FeaturedPosts posts={props.posts} />
     </>
   );

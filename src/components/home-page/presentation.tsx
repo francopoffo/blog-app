@@ -1,8 +1,8 @@
 import React from "react";
-import classes from "./hero.module.css";
+import classes from "./presentation.module.css";
 import Image from "next/legacy/image";
 
-const Hero: React.FC = () => {
+const Presentation: React.FC = () => {
   return (
     <section className={classes.hero}>
       <div className={classes.image}>
@@ -19,4 +19,4 @@ const Hero: React.FC = () => {
   );
 };
 
-export default Hero;
+export default Presentation;
