@@ -1,7 +1,7 @@
 import React from "react";
 import FeaturedPosts from "@/components/home-page/featured-posts";
 import Head from "next/head";
-import Hero from "@/components/home-page/hero";
+import Hero from "../components/home-page/hero";
 import { Posts } from "@/types/posts";
 import { getFeaturedPosts } from "helpers/posts-util";
 
