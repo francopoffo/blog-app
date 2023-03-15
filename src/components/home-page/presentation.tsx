@@ -14,7 +14,7 @@ const Presentation: React.FC = () => {
         />
       </div>
       <h1>Hi, I am Franco Poffo</h1>
-      <p>A blog about my journey in web development.</p>
+      <p>A blog about Front End technologies written by ChatGPT.</p>
     </section>
   );
 };

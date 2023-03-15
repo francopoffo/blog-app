@@ -14,6 +14,7 @@ O principal objetivo é utilizar o máximo de features do Next.js, que são:
 - React
 - Next.js
 - TypeScript
+- MongoDB
 - react-markdown
 - gray-matter
 - react-syntax-highlighter
