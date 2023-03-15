@@ -7,7 +7,7 @@ import { Post } from "@/types/post";
 const PostItem: React.FC<{ post: Post }> = (props) => {
   const { title, image, description, date, slug } = props.post;
 
-  const formattedDate = new Date(date).toLocaleDateString("pt-BR", {
+  const formattedDate = new Date(date).toLocaleDateString("en", {
     day: "numeric",
     month: "long",
     year: "numeric",
