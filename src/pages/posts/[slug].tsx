@@ -12,6 +12,8 @@ const PostDetailPage: React.FC<{ post: Post }> = (props) => {
       <Head>
         <title>{props.post.title}</title>
         <meta name="description" content={props.post.description} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <PostContent post={props.post} />
     </Fragment>
