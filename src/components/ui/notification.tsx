@@ -1,8 +1,8 @@
 import classes from "./notification.module.css";
 import React from "react";
-import { Notification } from "@/types/notification";
+import { NotificationType } from "@/types/notification";
 
-const Notification: React.FC<Notification> = (props) => {
+const Notification: React.FC<NotificationType> = (props) => {
   const { title, message, status } = props;
 
   let statusClasses = "";
