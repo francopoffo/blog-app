@@ -1,6 +1,6 @@
 ### Sobre
 
-Este projeto está em desenvolvimento.
+Este projeto é um blog que é alimentado com arquivos Markdown.
 
 O principal objetivo é utilizar o máximo de features do Next.js, que são:
 
