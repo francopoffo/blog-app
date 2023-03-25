@@ -9,7 +9,7 @@ O principal objetivo é utilizar o máximo de features do Next.js, que são:
 - image optimization
 - API routes
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas no projeto
 
 - React
 - Next.js
